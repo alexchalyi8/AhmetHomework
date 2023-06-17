@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="smoke Spruce suite">
+    <test name="smoke Spruce">
+        <classes>
+
+            <class name="com.test.spruceEats.tests.SpruseProductSelectioTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="HomeworkRegression">
+    <parameter name="Username" value="username"> </parameter>
+    <parameter name="Password" value="password"> </parameter>
+    <parameter name="name" value="username"></parameter>
+    <parameter name="item1" value="Pfizer Vaccine"></parameter>
+    <parameter name="item2" value="Sputnik Vaccine"></parameter>
+    <test name="homework3WebsiteValidation">
+        <classes>
+
+            <class name="com.test.homework3TestCase1.tests.Homeork3LoginTest"> </class>
+
+
+
+
+
+
+
+        </classes>
+
+
+
+
+
+
+
+
+
+
+
+
+    </test>
+
+
+
+
+
+
+
+
+</suite>
+

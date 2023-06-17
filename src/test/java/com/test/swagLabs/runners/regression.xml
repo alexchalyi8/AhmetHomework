@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="regressionSause">
+    <test name="sauseTest">
+        <classes>
+            <class name="com.test.swagLabs.tests.SauceDemoMainTest"></class>
+        </classes>
+    </test>
+</suite>

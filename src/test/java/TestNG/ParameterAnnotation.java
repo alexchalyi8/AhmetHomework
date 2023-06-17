@@ -1,0 +1,22 @@
+package TestNG;
+
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class ParameterAnnotation {
+    @Parameters("firstName")
+
+    @Test(priority = 1)
+    public void test(String name){
+
+        System.out.println(name);
+    }
+    @Parameters({"city","country","zipcode"})
+    @Test(priority = 2)
+
+    public void multipleParameters(String city,String country,String zipcode){
+        System.out.println(city);
+        System.out.println(country);
+        System.out.println(zipcode);
+    }
+}

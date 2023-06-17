@@ -1,0 +1,48 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="case2Regression">
+    <test name="case2login">
+        <parameter name="username" value="admin"> </parameter>
+        <parameter name="password" value="Admin123"> </parameter>
+        <parameter name="laboratoryExpectedMessage" value="Logged in as Super User (admin) at Laboratory."> </parameter>
+        <parameter name="location" value="Laboratory"> </parameter>
+        <parameter name="pharmacyExpectedMessage" value="Logged in as Super User (admin) at Pharmacy."> </parameter>
+        <parameter name="patientName" value="John johns"> </parameter>
+
+
+        <classes>
+<!--            <class name="com.test.HomeWork3TestCase2.tests.Homework3Case2LoginTest"> </class>-->
+<!--            <class name="com.test.HomeWork3TestCase2.tests.Homework3Case2HomeTest"> </class>-->
+            <class name="com.test.HomeWork3TestCase2.tests.Homework3Case2PatientTest"></class>
+
+
+
+
+
+
+
+
+
+
+        </classes>
+
+
+
+
+
+
+
+
+
+
+    </test>
+
+
+
+
+
+
+
+
+
+
+</suite>
